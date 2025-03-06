@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            PaintApp app = new PaintApp(20, 10); // Холст 20x10 символов
+            app.Run();
         }
     }
 }
