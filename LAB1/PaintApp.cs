@@ -32,8 +32,9 @@ namespace LAB1
                 Console.WriteLine("5. Загрузить из файла");
                 Console.WriteLine("6. Undo");
                 Console.WriteLine("7. Redo");
-                Console.WriteLine("8. Выход");
-                Console.WriteLine("9. Показать список фигур"); // Новая команда
+                Console.WriteLine("8. Очистка холста");
+                Console.WriteLine("9. Показать список фигур");
+                Console.WriteLine("10. Выход");
                 Console.Write("Выберите команду: ");
 
                 string input = Console.ReadLine();
@@ -161,12 +162,17 @@ namespace LAB1
                     }
                     break;
 
-                case "8": // Выход
-                    Environment.Exit(0);
+                case "8"://очистка холста 
+                    canvas.ClearCanvas();
+                    SaveState();
                     break;
 
                 case "9": // Список фигур
                     canvas.ListShapes();
+                    break;
+
+                case "10":// Выход
+                    Environment.Exit(0);
                     break;
 
                 default:

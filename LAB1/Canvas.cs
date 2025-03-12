@@ -82,20 +82,12 @@ namespace LAB1
             return JsonSerializer.Serialize(shapes, options);
         }
 
-        // Метод для установки состояния фигур из JSON-строки
+        
         public void SetShapesState(string shapesState)
         {
             var options = new JsonSerializerOptions();
             shapes = JsonSerializer.Deserialize<List<Shape>>(shapesState, options) ?? new List<Shape>();
-            //Console.WriteLine($"Загружено фигур: {shapes.Count}");
-            foreach (var shape in shapes)
-            {
-                //Console.WriteLine($"Тип: {shape.GetType().Name}, X: {shape.X}, Y: {shape.Y}");
-                if (shape is Line line)
-                {
-                    //Console.WriteLine($"EndX: {line.EndX}, EndY: {line.EndY}");
-                }
-            }
+           
             Redraw();
         }
         public Canvas(int width, int height)
@@ -103,8 +95,8 @@ namespace LAB1
             Width = width;
             Height = height;
             grid = new char[height, width];
-            // Background = '·';
-            Clear(); // Заполняем пробелами
+          
+            Clear(); 
         }
         public void Clear()
         {
@@ -112,7 +104,7 @@ namespace LAB1
             {
                 for (int j = 0; j < Width; j++)
                 {
-                    grid[i, j] = '·';//Background; // Фон (точка как пустой фон)
+                    grid[i, j] = '·';
                 }
             }
         }
@@ -134,13 +126,13 @@ namespace LAB1
             if (index >= 0 && index < shapes.Count)
             {
                 Shape shape = shapes[index];
-                int deltaX = newX - shape.X; // Смещение по X
-                int deltaY = newY - shape.Y; // Смещение по Y
+                int deltaX = newX - shape.X; 
+                int deltaY = newY - shape.Y;
 
                 shape.X = newX;
                 shape.Y = newY;
 
-                // Если фигура — линия, обновляем конечные координаты
+               
                 if (shape is Line line)
                 {
                     line.EndX += deltaX;
@@ -150,9 +142,14 @@ namespace LAB1
                 Redraw();
             }
         }
+        public void ClearCanvas()
+        {
+            shapes.Clear();
+            Clear();        
+        }
         public void Redraw()
         {
-            Clear(); // Очищаем холст
+            Clear(); 
             for (int i = 0; i < shapes.Count; i++)
             {
                 Shape shape = shapes[i];

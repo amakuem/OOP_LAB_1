@@ -8,7 +8,6 @@ namespace LAB1
 {
     public class Line: Shape
     {
-        private int num;
         public int EndX { get; set; }
         public int EndY { get; set; }
         public Line() : base(0, 0, ' ')
