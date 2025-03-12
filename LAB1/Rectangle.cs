@@ -15,18 +15,5 @@ namespace LAB1
             Width = width;
             Height = height;
         }
-        public override void Draw(char[,] canvas)
-        {
-            for(int i = Y; i < Y + Height && i < canvas.GetLength(0); i++)
-            {
-                for(int j = X; j < X + Width && j < canvas .GetLength(1); j++)
-                {
-                    if(i >= 0 && j >= 0)
-                    {
-                        canvas[i, j] = Symbol;
-                    }
-                }
-            }
-        }
     }
 }

@@ -14,6 +14,68 @@ namespace LAB1
         public int Height { get; private set; }
         private List<Shape> shapes = new List<Shape>();
 
+        private void DrawCircle(Circle circle)
+        {
+            for (int i = circle.Y - circle.Radius; i <= circle.Y + circle.Radius && i < grid.GetLength(0); i++)
+            {
+                for (int j = circle.X - circle.Radius; j <= circle.X + circle.Radius && j < grid.GetLength(1); j++)
+                {
+                    if (i >= 0 && j >= 0 && Math.Sqrt(Math.Pow(i - circle.Y, 2) + Math.Pow(j - circle.X, 2)) <= circle.Radius)
+                    {
+                        grid[i, j] = circle.Symbol;
+                    }
+                }
+            }
+        }
+
+        private void DrawRectangle(Rectangle rectangle)
+        {
+            for (int i = rectangle.Y; i < rectangle.Y + rectangle.Height && i < grid.GetLength(0); i++)
+            {
+                for (int j = rectangle.X; j < rectangle.X + rectangle.Width && j < grid.GetLength(1); j++)
+                {
+                    if (i >= 0 && j >= 0)
+                    {
+                        grid[i, j] = rectangle.Symbol;
+                    }
+                }
+            }
+        }
+        private void DrawLine(Line line)
+        {
+            int x0 = line.X;
+            int y0 = line.Y;
+            int x1 = line.EndX;
+            int y1 = line.EndY;
+
+            int dx = Math.Abs(x1 - x0);
+            int dy = Math.Abs(y1 - y0);
+            int sx = x0 < x1 ? 1 : -1;
+            int sy = y0 < y1 ? 1 : -1;
+            int err = dx - dy;
+
+            while (true)
+            {
+                if (x0 >= 0 && x0 < grid.GetLength(1) && y0 >= 0 && y0 < grid.GetLength(0))
+                {
+                    grid[y0, x0] = line.Symbol;
+                }
+
+                if (x0 == x1 && y0 == y1) break;
+                int e2 = 2 * err;
+                if (e2 > -dy)
+                {
+                    err -= dy;
+                    x0 += sx;
+                }
+                if (e2 < dx)
+                {
+                    err += dx;
+                    y0 += sy;
+                }
+            }
+        }
+
         public string GetShapesState()
         {
             var options = new JsonSerializerOptions { WriteIndented = true };
@@ -91,9 +153,22 @@ namespace LAB1
         private void Redraw()
         {
             Clear(); // Очищаем холст
-            foreach (var shape in shapes)
+            for (int i = 0; i < shapes.Count; i++)
             {
-                shape.Draw(grid); // Рисуем каждую фигуру
+                Shape shape = shapes[i];
+                if (shape is Circle circle)
+                {
+                    
+                    DrawCircle((Circle)shape);
+                }
+                else if (shape is Rectangle recangle)
+                {
+                    DrawRectangle((Rectangle)shape);
+                }
+                else if (shape is Line line)
+                {
+                    DrawLine((Line)shape);
+                }
             }
         }
         public void Display()

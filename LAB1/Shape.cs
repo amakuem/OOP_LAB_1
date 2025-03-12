@@ -21,6 +21,5 @@ namespace LAB1
             Y = y;
             Symbol = symbol;
         }
-        public abstract void Draw(char[,] canvas);
     }
 }
