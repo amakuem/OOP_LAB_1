@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LAB1
 {
-    class Circle: Shape
+    public class Circle: Shape
     {
         public int Radius { get; set; }
 

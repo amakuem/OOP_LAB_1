@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LAB1
 {
-    class Rectangle: Shape
+    public class Rectangle: Shape
     {
         public int Width { get; set; }
         public int Height { get; set; }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LAB1
 {
-    class Canvas
+    public class Canvas
     {
         private char[,] grid;
         public int Width { get; private set; }
@@ -150,7 +150,7 @@ namespace LAB1
                 Redraw();
             }
         }
-        private void Redraw()
+        public void Redraw()
         {
             Clear(); // Очищаем холст
             for (int i = 0; i < shapes.Count; i++)
@@ -222,32 +222,6 @@ namespace LAB1
             }
             Console.WriteLine("\nНажмите Enter, чтобы продолжить...");
             Console.ReadLine();
-        }
-        public string GetState()
-        {
-            string state = "";
-            for (int i = 0; i < Height; i++)
-            {
-                for (int j = 0; j < Width; j++)
-                {
-                    state += grid[i, j];
-                }
-            }
-            return state;
-        }
-        public void SetState(string state)
-        {
-            int index = 0;
-            for (int i = 0; i < Height; i++)
-            {
-                for (int j = 0; j < Width; j++)
-                {
-                    if (index < state.Length)
-                    {
-                        grid[i, j] = state[index++];
-                    }
-                }
-            }
         }
     }
 }

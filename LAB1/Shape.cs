@@ -10,7 +10,7 @@ namespace LAB1
     [JsonDerivedType(typeof(Circle), typeDiscriminator: "circle")]
     [JsonDerivedType(typeof(Rectangle), typeDiscriminator: "rectangle")]
     [JsonDerivedType(typeof(Line), typeDiscriminator: "line")]
-    abstract class Shape
+    public abstract class Shape
     {
         public int X { get; set; }
         public int Y { get; set; }

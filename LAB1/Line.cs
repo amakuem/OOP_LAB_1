@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LAB1
 {
-    class Line: Shape
+    public class Line: Shape
     {
         private int num;
         public int EndX { get; set; }

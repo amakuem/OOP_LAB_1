@@ -144,9 +144,11 @@ namespace LAB1
                 case "6": // Undo
                     if (undoStack.Count > 1) // Оставляем текущее состояние
                     {
-                        redoStack.Push(undoStack.Pop()); // Сохраняем текущее для redo
+                        string currentState = canvas.GetShapesState();
+                        redoStack.Push(currentState);
+                        undoStack.Pop(); // Удаляем текущее состояние
                         string prevState = undoStack.Peek();
-                        canvas.SetState(prevState);
+                        canvas.SetShapesState(prevState);
                     }
                     break;
 
@@ -154,8 +156,8 @@ namespace LAB1
                     if (redoStack.Count > 0)
                     {
                         string nextState = redoStack.Pop();
-                        canvas.SetState(nextState);
                         undoStack.Push(nextState);
+                        canvas.SetShapesState(nextState);
                     }
                     break;
 
@@ -175,7 +177,8 @@ namespace LAB1
 
         private void SaveState()
         {
-            undoStack.Push(canvas.GetState());
+            string shapesState = canvas.GetShapesState();
+            undoStack.Push(shapesState);
             redoStack.Clear(); // Очищаем redo при новом действии
         }
     }
