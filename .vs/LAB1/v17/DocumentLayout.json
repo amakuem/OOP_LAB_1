@@ -1,0 +1,216 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\!\\4sem\\OOP\\LAB1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDA69AC-C603-4D32-9FCD-7794252804D7}|LAB1\\LAB1.csproj|d:\\!\\4sem\\oop\\lab1\\lab1\\canvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDA69AC-C603-4D32-9FCD-7794252804D7}|LAB1\\LAB1.csproj|solutionrelative:lab1\\canvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDA69AC-C603-4D32-9FCD-7794252804D7}|LAB1\\LAB1.csproj|d:\\!\\4sem\\oop\\lab1\\lab1\\paintapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDA69AC-C603-4D32-9FCD-7794252804D7}|LAB1\\LAB1.csproj|solutionrelative:lab1\\paintapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDA69AC-C603-4D32-9FCD-7794252804D7}|LAB1\\LAB1.csproj|d:\\!\\4sem\\oop\\lab1\\lab1\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDA69AC-C603-4D32-9FCD-7794252804D7}|LAB1\\LAB1.csproj|solutionrelative:lab1\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDA69AC-C603-4D32-9FCD-7794252804D7}|LAB1\\LAB1.csproj|d:\\!\\4sem\\oop\\lab1\\lab1\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDA69AC-C603-4D32-9FCD-7794252804D7}|LAB1\\LAB1.csproj|solutionrelative:lab1\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDA69AC-C603-4D32-9FCD-7794252804D7}|LAB1\\LAB1.csproj|d:\\!\\4sem\\oop\\lab1\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDA69AC-C603-4D32-9FCD-7794252804D7}|LAB1\\LAB1.csproj|solutionrelative:lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDA69AC-C603-4D32-9FCD-7794252804D7}|LAB1\\LAB1.csproj|d:\\!\\4sem\\oop\\lab1\\lab1\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDA69AC-C603-4D32-9FCD-7794252804D7}|LAB1\\LAB1.csproj|solutionrelative:lab1\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDA69AC-C603-4D32-9FCD-7794252804D7}|LAB1\\LAB1.csproj|d:\\!\\4sem\\oop\\lab1\\lab1\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BDA69AC-C603-4D32-9FCD-7794252804D7}|LAB1\\LAB1.csproj|solutionrelative:lab1\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDA69AC-C603-4D32-9FCD-7794252804D7}|LAB1\\LAB1.csproj|d:\\!\\4sem\\oop\\lab1\\lab1\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{4BDA69AC-C603-4D32-9FCD-7794252804D7}|LAB1\\LAB1.csproj|solutionrelative:lab1\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DA2AC0-CF96-402F-B53E-1CA5BC7117E6}|TestProject1\\TestProject1.csproj|d:\\!\\4sem\\oop\\lab1\\testproject1\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71DA2AC0-CF96-402F-B53E-1CA5BC7117E6}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DA2AC0-CF96-402F-B53E-1CA5BC7117E6}|TestProject1\\TestProject1.csproj|d:\\!\\4sem\\oop\\lab1\\testproject1\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71DA2AC0-CF96-402F-B53E-1CA5BC7117E6}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DA2AC0-CF96-402F-B53E-1CA5BC7117E6}|TestProject1\\TestProject1.csproj|d:\\!\\4sem\\oop\\lab1\\testproject1\\testproject1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{71DA2AC0-CF96-402F-B53E-1CA5BC7117E6}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\testproject1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BDA69AC-C603-4D32-9FCD-7794252804D7}|LAB1\\LAB1.csproj|d:\\!\\4sem\\oop\\lab1\\lab1\\lab1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4BDA69AC-C603-4D32-9FCD-7794252804D7}|LAB1\\LAB1.csproj|solutionrelative:lab1\\lab1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LAB1\\LAB1\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "LAB1\\ClassDiagram1.cd",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LAB1\\LAB1\\ClassDiagram1.cd",
+              "RelativeToolTip": "LAB1\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-03-12T16:00:49.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LAB1\\TestProject1\\Test1.cs",
+              "RelativeDocumentMoniker": "TestProject1\\Test1.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LAB1\\TestProject1\\Test1.cs",
+              "RelativeToolTip": "TestProject1\\Test1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T11:24:40.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LAB1.csproj",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LAB1\\LAB1\\LAB1.csproj",
+              "RelativeDocumentMoniker": "LAB1\\LAB1.csproj",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LAB1\\LAB1\\LAB1.csproj",
+              "RelativeToolTip": "LAB1\\LAB1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-12T07:50:07.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Line.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LAB1\\LAB1\\Line.cs",
+              "RelativeDocumentMoniker": "LAB1\\Line.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LAB1\\LAB1\\Line.cs",
+              "RelativeToolTip": "LAB1\\Line.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T11:40:13.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LAB1\\LAB1\\Rectangle.cs",
+              "RelativeDocumentMoniker": "LAB1\\Rectangle.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LAB1\\LAB1\\Rectangle.cs",
+              "RelativeToolTip": "LAB1\\Rectangle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:22:43.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Shape.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LAB1\\LAB1\\Shape.cs",
+              "RelativeDocumentMoniker": "LAB1\\Shape.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LAB1\\LAB1\\Shape.cs",
+              "RelativeToolTip": "LAB1\\Shape.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowBQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:16:44.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaintApp.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LAB1\\LAB1\\PaintApp.cs",
+              "RelativeDocumentMoniker": "LAB1\\PaintApp.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LAB1\\LAB1\\PaintApp.cs",
+              "RelativeToolTip": "LAB1\\PaintApp.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAIwLYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T10:25:21.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Canvas.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LAB1\\LAB1\\Canvas.cs",
+              "RelativeDocumentMoniker": "LAB1\\Canvas.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LAB1\\LAB1\\Canvas.cs",
+              "RelativeToolTip": "LAB1\\Canvas.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAADwv1oAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T10:17:46.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Circle.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LAB1\\LAB1\\Circle.cs",
+              "RelativeDocumentMoniker": "LAB1\\Circle.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LAB1\\LAB1\\Circle.cs",
+              "RelativeToolTip": "LAB1\\Circle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T10:14:49.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LAB1\\TestProject1\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "TestProject1\\MSTestSettings.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LAB1\\TestProject1\\MSTestSettings.cs",
+              "RelativeToolTip": "TestProject1\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T11:24:39.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LAB1\\LAB1\\Program.cs",
+              "RelativeDocumentMoniker": "LAB1\\Program.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LAB1\\LAB1\\Program.cs",
+              "RelativeToolTip": "LAB1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:06:33.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TestProject1.csproj",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LAB1\\TestProject1\\TestProject1.csproj",
+              "RelativeDocumentMoniker": "TestProject1\\TestProject1.csproj",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LAB1\\TestProject1\\TestProject1.csproj",
+              "RelativeToolTip": "TestProject1\\TestProject1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-12T07:52:22.684Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
