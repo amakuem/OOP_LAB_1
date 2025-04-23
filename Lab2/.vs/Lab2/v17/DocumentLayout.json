@@ -5,6 +5,102 @@
     {
       "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\storagecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\storagecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\plaintextdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\plaintextdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\markdowndocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\markdowndocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\istoragestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\istoragestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\documentsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\documentsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\documenteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\documenteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\documentfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\documentfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\users\\userstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\users\\userstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\users\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\users\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\users\\editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\users\\editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\users\\userfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\users\\userfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\users\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\users\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\users\\viewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\users\\viewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\bolddecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\bolddecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\lab2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\lab2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\editorsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\editorsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\cloudstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\cloudstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\localfilestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\localfilestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\inserttextcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\inserttextcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\textdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\textdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\simpletext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\simpletext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\itextformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\itextformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +110,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DocumentEditor.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\DocumentEditor.cs",
+              "RelativeDocumentMoniker": "Lab2\\DocumentEditor.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\DocumentEditor.cs",
+              "RelativeToolTip": "Lab2\\DocumentEditor.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvxUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:15:17.669Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +133,308 @@
               "RelativeDocumentMoniker": "Lab2\\Program.cs",
               "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Program.cs",
               "RelativeToolTip": "Lab2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T13:03:05.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StorageContext.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\StorageContext.cs",
+              "RelativeDocumentMoniker": "Lab2\\StorageContext.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\StorageContext.cs",
+              "RelativeToolTip": "Lab2\\StorageContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:12:47.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IStorageStrategy.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\IStorageStrategy.cs",
+              "RelativeDocumentMoniker": "Lab2\\IStorageStrategy.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\IStorageStrategy.cs",
+              "RelativeToolTip": "Lab2\\IStorageStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:11:03.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DocumentFactory.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\DocumentFactory.cs",
+              "RelativeDocumentMoniker": "Lab2\\DocumentFactory.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\DocumentFactory.cs",
+              "RelativeToolTip": "Lab2\\DocumentFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:05:02.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DocumentSubject.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\DocumentSubject.cs",
+              "RelativeDocumentMoniker": "Lab2\\DocumentSubject.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\DocumentSubject.cs",
+              "RelativeToolTip": "Lab2\\DocumentSubject.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADgvw8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:14:22.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MarkdownDocument.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\MarkdownDocument.cs",
+              "RelativeDocumentMoniker": "Lab2\\MarkdownDocument.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\MarkdownDocument.cs",
+              "RelativeToolTip": "Lab2\\MarkdownDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:03:41.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlainTextDocument.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\PlainTextDocument.cs",
+              "RelativeDocumentMoniker": "Lab2\\PlainTextDocument.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\PlainTextDocument.cs",
+              "RelativeToolTip": "Lab2\\PlainTextDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:03:25.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserStorage.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Users\\UserStorage.cs",
+              "RelativeDocumentMoniker": "Lab2\\Users\\UserStorage.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Users\\UserStorage.cs",
+              "RelativeToolTip": "Lab2\\Users\\UserStorage.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA1wAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:29:19.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Users\\IUser.cs",
+              "RelativeDocumentMoniker": "Lab2\\Users\\IUser.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Users\\IUser.cs",
+              "RelativeToolTip": "Lab2\\Users\\IUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:13:15.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Editor.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Users\\Editor.cs",
+              "RelativeDocumentMoniker": "Lab2\\Users\\Editor.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Users\\Editor.cs",
+              "RelativeToolTip": "Lab2\\Users\\Editor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:26:51.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserFactory.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Users\\UserFactory.cs",
+              "RelativeDocumentMoniker": "Lab2\\Users\\UserFactory.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Users\\UserFactory.cs",
+              "RelativeToolTip": "Lab2\\Users\\UserFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:28:08.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Users\\Admin.cs",
+              "RelativeDocumentMoniker": "Lab2\\Users\\Admin.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Users\\Admin.cs",
+              "RelativeToolTip": "Lab2\\Users\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:27:18.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Viewer.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Users\\Viewer.cs",
+              "RelativeDocumentMoniker": "Lab2\\Users\\Viewer.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Users\\Viewer.cs",
+              "RelativeToolTip": "Lab2\\Users\\Viewer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:13:41.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Lab2",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Lab2.csproj",
+              "RelativeDocumentMoniker": "Lab2\\Lab2.csproj",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Lab2.csproj",
+              "RelativeToolTip": "Lab2\\Lab2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-22T19:22:06.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditorSettings.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\EditorSettings.cs",
+              "RelativeDocumentMoniker": "Lab2\\EditorSettings.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\EditorSettings.cs",
+              "RelativeToolTip": "Lab2\\EditorSettings.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:14:48.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CloudStorage.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\CloudStorage.cs",
+              "RelativeDocumentMoniker": "Lab2\\CloudStorage.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\CloudStorage.cs",
+              "RelativeToolTip": "Lab2\\CloudStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:12:11.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BoldDecorator.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\BoldDecorator.cs",
+              "RelativeDocumentMoniker": "Lab2\\BoldDecorator.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\BoldDecorator.cs",
+              "RelativeToolTip": "Lab2\\BoldDecorator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:08:18.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LocalFileStorage.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\LocalFileStorage.cs",
+              "RelativeDocumentMoniker": "Lab2\\LocalFileStorage.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\LocalFileStorage.cs",
+              "RelativeToolTip": "Lab2\\LocalFileStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:11:34.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InsertTextCommand.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\InsertTextCommand.cs",
+              "RelativeDocumentMoniker": "Lab2\\InsertTextCommand.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\InsertTextCommand.cs",
+              "RelativeToolTip": "Lab2\\InsertTextCommand.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:10:13.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\ICommand.cs",
+              "RelativeDocumentMoniker": "Lab2\\ICommand.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\ICommand.cs",
+              "RelativeToolTip": "Lab2\\ICommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:09:35.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TextDecorator.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\TextDecorator.cs",
+              "RelativeDocumentMoniker": "Lab2\\TextDecorator.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\TextDecorator.cs",
+              "RelativeToolTip": "Lab2\\TextDecorator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:07:26.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SimpleText.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\SimpleText.cs",
+              "RelativeDocumentMoniker": "Lab2\\SimpleText.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\SimpleText.cs",
+              "RelativeToolTip": "Lab2\\SimpleText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:06:27.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ITextFormatter.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\ITextFormatter.cs",
+              "RelativeDocumentMoniker": "Lab2\\ITextFormatter.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\ITextFormatter.cs",
+              "RelativeToolTip": "Lab2\\ITextFormatter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:05:47.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Document.cs",
+              "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Document.cs",
+              "RelativeDocumentMoniker": "Lab2\\Document.cs",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Document.cs",
+              "RelativeToolTip": "Lab2\\Document.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:02:40.854Z",
               "EditorCaption": ""
             }
           ]

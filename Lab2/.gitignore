@@ -4,6 +4,7 @@
 ## Ignore build results
 **/bin/
 **/obj/
+**/.vs/
 
 # User-specific files
 *.user
