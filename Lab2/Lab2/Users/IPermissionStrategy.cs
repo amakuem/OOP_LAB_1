@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Lab2.Users
 {
-    interface IPermissionStrategy
+    public interface IPermissionStrategy
     {
+        bool CanView();
+        bool CanEdit();
+        bool CanManageUsers();
     }
 }

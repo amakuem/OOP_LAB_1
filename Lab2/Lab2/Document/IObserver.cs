@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lab2.Document
 {
-    interface IObserver
+    public interface IObserver
     {
+        void Update(string message);
     }
 }

@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab2.Document
+namespace Lab2.Editor
 {
-    public enum DocumentType
+    public interface IText
     {
-        PlainText,
-        Markdown,
-        RichText
+        string Format();
     }
 }

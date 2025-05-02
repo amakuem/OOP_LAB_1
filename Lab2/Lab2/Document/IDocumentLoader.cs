@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lab2.Document
 {
-    public enum DocumentType
+    public interface IDocumentLoader
     {
-        PlainText,
-        Markdown,
-        RichText
+        Document Load(string path);
     }
 }

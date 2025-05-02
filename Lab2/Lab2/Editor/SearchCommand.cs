@@ -1,33 +1,29 @@
-﻿using System;
+﻿using Lab2.Users;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Lab2.Document;
-using Lab2.Users;
 
 namespace Lab2.Editor
 {
-    class InsertCommand: ICommand
+    public class SearchCommand: ICommand
     {
         private readonly Document.Document _document;
-        private string _text;
-        private int _position;
+        private string _word;
         private string _previousContent;
 
-        public InsertCommand(Document.Document document, int pos, string text)
+        public SearchCommand(Document.Document document, string word)
         {
             _document = document;
-            _position = pos;
-            _text = text;
-            _previousContent = _document.GetOriginalText();
+            _word = word;
+            _previousContent = document.GetOriginalText();
         }
-
         public void Execute()
         {
             if (!Session.PermissionStrategy.CanEdit())
                 throw new InvalidOperationException("You don't have permission to edit.");
-            _document.InsertText(_position, _text);
+            _document.SearchWord(_word);
         }
         public void Undo()
         {

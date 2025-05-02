@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Lab2.Users
 {
-    class UserRole
+    public enum UserRole
     {
+        Viewer,
+        Editor,
+        Admin
     }
 }

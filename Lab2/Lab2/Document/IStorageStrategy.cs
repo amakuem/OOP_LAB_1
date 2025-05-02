@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lab2.Document
 {
-    public enum DocumentType
+    public interface IStorageStrategy
     {
-        PlainText,
-        Markdown,
-        RichText
+        Task SaveDocument(DocumentData data, string fileName);
+        Task<DocumentData> LoadDocument(string fileName);
     }
 }
