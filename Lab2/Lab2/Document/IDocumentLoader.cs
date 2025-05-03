@@ -8,6 +8,6 @@ namespace Lab2.Document
 {
     public interface IDocumentLoader
     {
-        Document Load(string path);
+        Task<DocumentData> Load(string path);
     }
 }

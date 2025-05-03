@@ -38,6 +38,8 @@ namespace Lab2.Document
             var data = await _storageStrategy.LoadDocument(fileName);
             var doc = new Document(data.Type);
             doc.AddText(data.Content);
+            doc.Editors = data.Editors;
+            doc.Viewers = data.Viewers;
             doc.filePath = fileName;
             return doc;
         }

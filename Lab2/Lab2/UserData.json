@@ -1,18 +1,30 @@
 [
   {
     "Name": "Вьюер Вьюеров",
-    "Role": 0
+    "Role": 3
   },
   {
     "Name": "Эдитор Эдиторов",
     "Role": 1
   },
   {
-    "Name": "Админ Админов",
+    "Name": "admin",
     "Role": 2
   },
   {
     "Name": "Аудитор Проверялов",
     "Role": 2
+  },
+  {
+    "Name": "Bili Boba",
+    "Role": 3
+  },
+  {
+    "Name": "guest",
+    "Role": 0
+  },
+  {
+    "Name": "guest1",
+    "Role": 3
   }
 ]

@@ -33,27 +33,49 @@ namespace Lab2.Document
         }
         public void InsertText(int position, string? input)
         {
-            //var beforeContent = GetOriginalText();
-            //_history.AddEntry("APPEND", beforeContent);
+            var beforeContent = GetOriginalText();
+            history.AddEntry("INSERT", beforeContent);
 
             text = text.Insert(getRawPosition(position), input);
+
+            Notify($"!!! Document updated: text appended. !!!");
         }
         public void DeleteText(int position, int length)
         {
-            text = text.Remove(getRawPosition(position), length);            
+            var beforeContent = GetOriginalText();
+            history.AddEntry("DELETE", beforeContent);
+
+            text = text.Remove(getRawPosition(position), length);
+
+            Notify($"!!! Document updated: text deleted. !!!");
         }
         public void CutText(int position, int length)
         {
+            var beforeContent = GetOriginalText();
+            history.AddEntry("CUT", beforeContent);
+
             buffer = text.Substring(getRawPosition(position), length);
             text = text.Remove(getRawPosition(position), length);
+
+            Notify($"!!! Document updated: cut part of the text. !!!");
         }
         public void CopyText(int position, int length)
         {
+            var beforeContent = GetOriginalText();
+            history.AddEntry("COPY", beforeContent);
+
             buffer = text.Substring(getRawPosition(position), length);
+
+            Notify($"!!! Document updated: copy part of the text. !!!");
         }
         public void PasteText(int position)
         {
+            var beforeContent = GetOriginalText();
+            history.AddEntry("PASTE", beforeContent);
+
             text = text.Insert(getRawPosition(position), buffer);
+
+            Notify($"!!! Document updated: paste part of the text. !!!");
         }
         public void SearchWord(string word)
         {
@@ -65,10 +87,13 @@ namespace Lab2.Document
         }
         public string GetDisplayText()
         {
-            return displayText;
+            return text;
         }
         public void FormateText(int position, int length, string style)
         {
+            var beforeContent = GetOriginalText();
+            history.AddEntry("FORMATE", beforeContent);
+
             IText input = new PlainText(text.Substring(getRawPosition(position), length));
             //text = text.Remove(getRawPosition(position), length);//сделать более точное удаление(чтобы в удалении не участвовали символы форматирование)
             
@@ -91,6 +116,7 @@ namespace Lab2.Document
             //Console.WriteLine("1.Bold(<b /b>)");
             //Console.WriteLine("2.Italic(<i /i>)");
             //Console.WriteLine("3.Underline(<u /u>)");
+            Notify($"!!! Document updated: formate part of the text. !!!");
         }
         public int getRawPosition(int position)
         {

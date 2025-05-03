@@ -8,6 +8,6 @@ namespace Lab2.Document
 {
     public interface IDocumentSaver
     {
-        void Save(string path, Document document);
+        public Task Save(string path, DocumentData document);
     }
 }

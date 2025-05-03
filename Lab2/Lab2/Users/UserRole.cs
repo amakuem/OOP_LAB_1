@@ -10,6 +10,7 @@ namespace Lab2.Users
     {
         Viewer,
         Editor,
-        Admin
+        Admin,
+        None
     }
 }
