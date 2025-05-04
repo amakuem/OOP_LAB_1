@@ -54,6 +54,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "postgrest-csharp": {
+              "target": "Package",
+              "version": "[3.5.1, )"
+            },
+            "supabase-csharp": {
+              "target": "Package",
+              "version": "[0.16.2, )"
             }
           },
           "imports": [

@@ -98,11 +98,11 @@ namespace Lab2
                             {
                                 if (storageChoice == "2")
                                 {
-                                    //DocumentManager.SetStorageStrategy(new SupabaseStorageStrategy(
-                                    //    Lab2.DB.GetUrl(),
-                                    //    Lab2.DB.GetKey()
-                                    //));
-                                    //Console.Write("Enter cloud file name (e.g., document.json): ");
+                                    DocumentManager.SetStorageStrategy(new SupabaseStorageStrategy(
+                                        Lab2.DB.GetUrl(),
+                                        Lab2.DB.GetKey()
+                                    ));
+                                    Console.Write("Enter cloud file name (e.g., document.json): ");
                                 }
                                 else
                                 {
@@ -485,14 +485,14 @@ namespace Lab2
                                         DocumentManager.SetStorageStrategy(new LocalFileStrategy());
                                         Console.Write("Enter local file name to save (e.g., doc.txt): ");
                                     }
-                                    //else if (storageChoice1 == "2")
-                                    //{
-                                    //    DocumentManager.SetStorageStrategy(new SupabaseStorageStrategy(
-                                    //        Lab2.DB.GetUrl(),
-                                    //        Lab2.DB.GetKey()
-                                    //    ));
-                                    //    Console.Write("Enter cloud file name to save (e.g., document.json): ");
-                                    //}
+                                    else if (storageChoice1 == "2")
+                                    {
+                                        DocumentManager.SetStorageStrategy(new SupabaseStorageStrategy(
+                                            Lab2.DB.GetUrl(),
+                                            Lab2.DB.GetKey()
+                                        ));
+                                        Console.Write("Enter cloud file name to save (e.g., document.json): ");
+                                    }
                                     else
                                     {
                                         throw new ArgumentException("Invalid storage type");
@@ -701,6 +701,9 @@ namespace Lab2
                                 break;
 
                             case "14":
+                                TerminalSettingsManager.Instance.ShowTerminalSettingsMenu();
+                                PressAnyButton();
+
 
                                 break;
 
