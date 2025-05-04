@@ -3,12 +3,35 @@ using Lab2.Users;
 using Lab2.Editor;
 using System.Security.Cryptography;
 using System.Net.Security;
+using System.Text;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 
 namespace Lab2
 {
     internal class Program
     {
+        public static void DeleteLinesFromBottom(int linesToDelete)
+        {
+            if (linesToDelete <= 0) return;
+
+            // Получаем текущую позицию курсора
+            int originalCursorTop = Console.CursorTop;
+            int originalCursorLeft = Console.CursorLeft;
+
+            // Рассчитываем стартовую позицию для очистки
+            int startLine = Math.Max(0, originalCursorTop - linesToDelete + 1);
+
+            // Очищаем каждую строку
+            for (int i = startLine; i <= originalCursorTop; i++)
+            {
+                Console.SetCursorPosition(0, i);
+                Console.Write(new string(' ', Console.BufferWidth));
+            }
+
+            // Перемещаем курсор обратно в исходную позицию (с учётом удалённых строк)
+            Console.SetCursorPosition(originalCursorLeft, startLine);
+        }
         public static User SelectUserToLogin()
         {
             while (true)
@@ -170,6 +193,21 @@ namespace Lab2
                             currentDocument = DocumentManager.CreateNewDocument(docType);
                             currentDocument.Notify("New document created!");
                             currentDocument.Subscribe(Session.CurrentUser);
+                            List<string> temp = new List<string>();
+                            temp.Add(Session.CurrentUser.Name);
+                            currentDocument.Editors = temp;
+                            UserManager.CheckUser(Session.CurrentUser, currentDocument);
+                            try
+                            {
+                                Session.SetPermision(Session.CurrentUser);
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine(ex.Message);
+                                currentDocument = null;
+                                PressAnyButton();
+                                break;
+                            }
                             Console.WriteLine($"New {docType} document created.");
                             PressAnyButton();
                             opening = false;
@@ -217,8 +255,9 @@ namespace Lab2
                     Console.WriteLine("Current Document: " + (currentDocument?.filePath ?? "None"));
                     Console.WriteLine("Current Document type: " + (currentDocument != null ? currentDocument.type.ToString() : "None"));
                     Console.WriteLine("Content:");
-                    if (currentDocument.text != null)
+                    if (currentDocument.text != null && currentDocument.text != "")
                     {
+                        
                         string formattedText = TextFormater.FormatText(currentDocument.GetDisplayText(), currentDocument.type.ToString());
                         string[] lines = formattedText.Split('\n');
                         foreach (var line in lines)
@@ -245,9 +284,8 @@ namespace Lab2
                     Console.WriteLine("12. Exit");
                     Console.WriteLine("=============================");
                     Console.WriteLine("13. Manage Users (Admin only)");
-                    Console.WriteLine("14. Switch User");
-                    Console.WriteLine("15. Terminal Settings");
-                    Console.WriteLine("16. View Document History");
+                    Console.WriteLine("14. Terminal Settings");
+                    Console.WriteLine("15. View Document History");
                     Console.Write("\nEnter your choice (1-15): ");
 
                     string choice = Console.ReadLine();
@@ -263,11 +301,50 @@ namespace Lab2
                                     PressAnyButton();
                                     break;
                                 }
+                                currentDocument.ShowEveryWordIndex();
                                 Console.Write("Enter character position to insert at (ignoring <b /b>, <i /i>, <u /u>): ");
                                 int insertPos = int.Parse(Console.ReadLine());
-                                Console.Write("Enter text to insert: ");
-                                string insertText = Console.ReadLine();
-                                ICommand insertCommand = new InsertCommand(currentDocument, insertPos, insertText);
+                                Console.Write("Enter text to insert(CTR + X to end input): ");
+
+
+
+                                StringBuilder input = new StringBuilder();
+                                while (true)
+                                {
+                                    var key = Console.ReadKey(intercept: true); // Перехватываем клавишу без вывода
+
+                                    // Проверяем комбинацию Ctrl+X
+                                    if (key.Key == ConsoleKey.X && (key.Modifiers & ConsoleModifiers.Control) != 0)
+                                        break;
+
+                                    // Обработка Enter
+                                    if (key.Key == ConsoleKey.Enter)
+                                    {
+                                        input.Append(Environment.NewLine);
+                                        Console.WriteLine(); // Переводим курсор на новую строку
+                                    }
+                                    // Обработка Backspace (опционально)
+                                    else if (key.Key == ConsoleKey.Backspace)
+                                    {
+                                        if (input.Length > 0 && Console.CursorLeft > 0)
+                                        {
+                                            input.Remove(input.Length - 1, 1);
+                                            Console.Write("\b \b"); // Удаляем символ из консоли
+                                        }
+                                    }
+                                    // Обычные символы
+                                    else if (!char.IsControl(key.KeyChar))
+                                    {
+                                        input.Append(key.KeyChar);
+                                        Console.Write(key.KeyChar); // Выводим символ
+                                    }
+                                }
+
+
+
+
+                                //string insertText = Console.ReadLine();
+                                ICommand insertCommand = new InsertCommand(currentDocument, insertPos, input.ToString());
                                 undoRedoManager.ExecuteCommand(insertCommand);
 
 
@@ -483,6 +560,164 @@ namespace Lab2
                                 PressAnyButton();
 
                                 break;
+                            case "12":
+                                running = false;
+
+                                break;
+
+                            case "13":
+                                if (!Session.PermissionStrategy.CanManageUsers())
+                                {
+                                    Console.WriteLine("You cant do this action with your role!");
+                                    PressAnyButton();
+                                    break;
+                                }
+                                bool manage = true;
+                                while (manage)
+                                {
+                                    Console.WriteLine("--------------------------");
+                                    Console.WriteLine("Roles for this Documnet:");
+                                    string curEditors = $"Editors: {string.Join(", ", currentDocument.Editors)}";
+                                    string curViewers = $"Viewers: {string.Join(", ", currentDocument.Viewers)}\n";
+                                    Console.WriteLine(curEditors);
+                                    Console.WriteLine(curViewers);
+                                    Console.WriteLine("1. Add Editor.");
+                                    Console.WriteLine("2. Add Viewer.");
+                                    Console.WriteLine("3. Delete Editor.");
+                                    Console.WriteLine("4. Delete Viewer.\n");
+                                    Console.WriteLine("0. Exit");
+                                    int managChoice = int.Parse(Console.ReadLine());
+                                    switch (managChoice)
+                                    {
+                                        case 1:
+                                            DeleteLinesFromBottom(12);
+                                            while (true)
+                                            {
+                                                Console.WriteLine($"\nAll Users: {string.Join(", ", UserManager.Users.Select((user, index) => $"{index + 1}. {user}"))}\n");
+                                                Console.WriteLine("Enter the number of user to ADD: ");
+                                                if (int.TryParse(Console.ReadLine(), out int choice2))
+                                                {
+
+                                                    if (choice2 > 0 && choice2 <= UserManager.Users.Count)
+                                                    {
+                                                        if(currentDocument.Editors.Contains(UserManager.Users[choice2 - 1].Name))
+                                                        {
+                                                            Console.WriteLine("This user already an Editor");
+                                                            PressAnyButton();
+                                                            DeleteLinesFromBottom(8);
+                                                            continue;
+                                                        }
+                                                        currentDocument.Editors.Add(UserManager.Users[choice2 - 1].Name);
+                                                        break;
+                                                    }
+
+                                                }
+                                            }
+                                            
+
+                                            PressAnyButton();
+                                            DeleteLinesFromBottom(8);
+                                            break;
+
+                                        case 2:
+                                            DeleteLinesFromBottom(12);
+                                            while (true)
+                                            {
+                                                Console.WriteLine($"\nAll Users: {string.Join(", ", UserManager.Users.Select((user, index) => $"{index + 1}. {user}"))}\n");
+                                                Console.WriteLine("Enter the number of user to ADD: ");
+                                                if (int.TryParse(Console.ReadLine(), out int choice3))
+                                                {
+
+                                                    if (choice3 > 0 && choice3 <= UserManager.Users.Count)
+                                                    {
+                                                        if (currentDocument.Editors.Contains(UserManager.Users[choice3 - 1].Name))
+                                                        {
+                                                            Console.WriteLine("This user already an Editor");
+                                                            PressAnyButton();
+                                                            DeleteLinesFromBottom(8);
+                                                            continue;
+                                                        }
+                                                        if(currentDocument.Viewers.Contains(UserManager.Users[choice3 - 1].Name))
+                                                        {
+                                                            Console.WriteLine("This user already an Viewer");
+                                                            PressAnyButton();
+                                                            DeleteLinesFromBottom(8);
+                                                            continue;
+                                                        }
+                                                        currentDocument.Viewers.Add(UserManager.Users[choice3 - 1].Name);
+                                                        break;
+                                                    }
+
+                                                }
+                                            }
+                                            
+                                            PressAnyButton();
+                                            DeleteLinesFromBottom(8);
+                                            break;
+
+                                        case 3:
+                                            DeleteLinesFromBottom(12);
+                                            Console.WriteLine($"\nAll Editors: {string.Join(", ", currentDocument.Editors.Select((user, index) => $"{index + 1}. {user}"))}\n");
+                                            Console.WriteLine("Enter the number of user to DELETE: ");
+                                            if (int.TryParse(Console.ReadLine(), out int choice4))
+                                            {
+
+                                                if (choice4 > 0 && choice4 <= UserManager.Users.Count)
+                                                {
+                                                    currentDocument.Editors.RemoveAt(choice4 - 1);
+                                                }
+
+                                            }
+                                            PressAnyButton();
+                                            DeleteLinesFromBottom(8);
+                                            break;
+
+                                        case 4:
+                                            DeleteLinesFromBottom(12);
+                                            Console.WriteLine($"\nAll Viewers: {string.Join(", ", currentDocument.Viewers.Select((user, index) => $"{index + 1}. {user}"))}\n");
+                                            Console.WriteLine("Enter the number of user to DELETE: ");
+                                            if (int.TryParse(Console.ReadLine(), out int choice5))
+                                            {
+
+                                                if (choice5 > 0 && choice5 <= UserManager.Users.Count)
+                                                {
+                                                    currentDocument.Viewers.RemoveAt(choice5 - 1);
+                                                }
+
+                                            }
+                                            PressAnyButton();
+                                            DeleteLinesFromBottom(8);
+
+                                            break;
+
+                                        case 0:
+                                            manage = false;
+
+                                            break;
+                                    }
+                                }
+
+                                //PressAnyButton();
+                                break;
+
+                            case "14":
+
+                                break;
+
+                            case "15":
+                                Console.WriteLine("\nDocument History:");
+                                Console.WriteLine("{0,-25} {1,-10} {2,-50}",
+                                    "Timestamp", "Action", "Content Preview");
+                                foreach (var entry1 in currentDocument.GetHistory())
+                                {
+                                    Console.WriteLine("{0,-25} {1,-10} {2,-50}",
+                                        entry1.Timestamp.ToString("yyyy-MM-dd HH:mm:ss"),
+                                        entry1.ActionType,
+                                        entry1.Content.Truncate(90));
+                                }
+                                PressAnyButton();
+
+                                break;
 
                         }
 
@@ -495,6 +730,7 @@ namespace Lab2
 
 
                 }
+                
 
 
 

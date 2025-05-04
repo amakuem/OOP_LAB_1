@@ -8,6 +8,8 @@ using Lab2.Users;
 using Lab2.Editor;
 using System.Security.Cryptography;
 using System.Runtime.InteropServices;
+using System.Data;
+using System.Text.RegularExpressions;
 
 namespace Lab2.Document
 {
@@ -15,7 +17,7 @@ namespace Lab2.Document
     {
         public List<string> Editors { get; set; }
         public List<string> Viewers { get; set; }
-        public string text;
+        public string text = "";
         public string displayText;
         public string buffer;
         public string filePath { get; set; }
@@ -26,6 +28,8 @@ namespace Lab2.Document
         public Document(DocumentType type)
         {
             this.type = type;
+            Editors = new List<string>();
+            Viewers = new List<string>();
         }
         public void AddText(string text)
         {
@@ -147,8 +151,28 @@ namespace Lab2.Document
         {
             return text;
         }
+        public IEnumerable<DocumentSnapshot> GetHistory()
+        {
+            return history.GetHistory();
+        }
 
+        public void ShowEveryWordIndex()
+        {
+            Console.WriteLine("Words index:");
+            string clear = DeleteAllMarkers();
+            var matches = Regex.Matches(clear, @"\S+");
 
+            // Выводим результат
+            foreach (Match match in matches)
+            {
+                Console.WriteLine($"{match.Index}: {match.Value}");
+            }
+        }
+        public string DeleteAllMarkers()
+        {
+            return text.Replace("# ", "").Replace("## ", "").Replace("### ", "")
+                .Replace("<b", "").Replace("/b>","").Replace("<i", "").Replace("/i>", "").Replace("<u", "").Replace("/u>", "");
+        }
 
         public void Subscribe(IObserver observer) => observers.Add(observer);
         public void Unsubscribe(IObserver observer) => observers.Remove(observer);

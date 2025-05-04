@@ -23,7 +23,7 @@ namespace Lab2.Users
         {
             Console.WriteLine($"[Notification to {Name}]: {message}");
         }
-        public override string ToString() => $"{Name} ({Role})";
+        public override string ToString() => $"{Name}";
     }
 
 }
