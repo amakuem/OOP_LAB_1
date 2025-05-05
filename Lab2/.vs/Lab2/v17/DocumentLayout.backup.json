@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\document\\supabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\document\\supabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\document\\supabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|solutionrelative:lab2\\document\\supabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5337BEA-19EA-4339-BCA6-6A787F73A470}|Lab2\\Lab2.csproj|d:\\!\\4sem\\oop\\labs\\lab2\\lab2\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -170,17 +170,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Supabase.cs",
               "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Document\\Supabase.cs",
               "RelativeDocumentMoniker": "Lab2\\Document\\Supabase.cs",
               "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Document\\Supabase.cs",
               "RelativeToolTip": "Lab2\\Document\\Supabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-04T12:33:39.981Z",
               "EditorCaption": ""
@@ -291,13 +291,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Program.cs",
               "RelativeDocumentMoniker": "Lab2\\Program.cs",
-              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Program.cs",
-              "RelativeToolTip": "Lab2\\Program.cs",
-              "ViewState": "AgIAAIcBAAAAAAAAAAAcwPQBAABiAAAAAAAAAA==",
+              "ToolTip": "D:\\!\\4sem\\OOP\\LABS\\Lab2\\Lab2\\Program.cs*",
+              "RelativeToolTip": "Lab2\\Program.cs*",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAUwGoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T13:03:05.516Z",
               "EditorCaption": ""
