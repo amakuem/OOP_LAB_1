@@ -53,7 +53,7 @@ namespace Lab3
                         
                             var addCommand = new AddStudentCommand(studentService, quoteService, studentDto);
                             addCommand.Execute();
-                            
+                            Console.WriteLine("!!!Student added!!!");
                             PressAnyButton();
                             break;
 
@@ -73,8 +73,20 @@ namespace Lab3
                                 PressAnyButton();
                                 break;
                             }
+                            
                             var editCommand = new EditStudentCommand(studentService, editDto);
-                            editCommand.Execute();
+                            try
+                            {
+                                editCommand.Execute();
+
+                            }
+                            catch(ValidationException ex)
+                            {
+                                Console.WriteLine(ex.Message);
+                                PressAnyButton();
+                                break;
+                            }
+                            Console.WriteLine("!!!Student edited!!!");
 
                             break;
 

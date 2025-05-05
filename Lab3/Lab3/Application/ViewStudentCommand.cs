@@ -20,7 +20,7 @@ namespace Lab3.Application
             var students = _studentService.GetAllStudents();
             if (students.Count == 0)
             {
-                Console.WriteLine("Список студентов пуст.");
+                Console.WriteLine("The list of students is empty.");
             }
             else
             {

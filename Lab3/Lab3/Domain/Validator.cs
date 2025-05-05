@@ -16,5 +16,11 @@ namespace Lab3.Domain
             if (student.Grade < 0 || student.Grade > 100)
                 throw new ValidationException("The score should be from 0 to 100");
         }
+        
+        public static void ValidateQuote(QuoteDTO quote)
+        {
+            if (string.IsNullOrWhiteSpace(quote.Content))
+                throw new ValidationException("The name cannot be empty.");
+        }
     }
 }

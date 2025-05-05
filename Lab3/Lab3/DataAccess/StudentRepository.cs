@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using Newtonsoft.Json;
+using System.ComponentModel.DataAnnotations;
 
 namespace Lab3.DataAccess
 {
@@ -48,9 +49,14 @@ namespace Lab3.DataAccess
             var existing = _students.Find(s => s.Name == student.Name);
             if (existing != null)
             {
+                student.Id = existing.Id;
                 _students.Remove(existing);
                 _students.Add(student);
                 SaveStudents();
+            }
+            else
+            {
+                throw new ValidationException("There is no such student");
             }
         }
         public List<Student> GetAllStudents()

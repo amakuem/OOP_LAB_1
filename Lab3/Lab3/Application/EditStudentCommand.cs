@@ -23,6 +23,7 @@ namespace Lab3.Application
         public void Execute()
         {
             _studentService.EditStudent(_studentDto);  //нужно ли id????????
+            
         }
     }
 }

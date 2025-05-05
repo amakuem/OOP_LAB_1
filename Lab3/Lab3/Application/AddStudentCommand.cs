@@ -1,6 +1,7 @@
 ﻿using Lab3.Domain;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,7 +25,16 @@ namespace Lab3.Application
         {
             _studentService.AddStudent(_studentDto);
             var quote = await _quoteService.GetMotivationalQuoteAsync();
-            Console.WriteLine("!!!Student added!!!");
+            try
+            {
+                Lab3.Domain.Validator.ValidateQuote(quote);
+            }
+            catch(ValidationException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            
+            
             Console.WriteLine($"Motivation quote: {quote.Content}");
         }
     }
