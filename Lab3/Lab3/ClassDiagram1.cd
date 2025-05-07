@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lab3.Application.AddStudentCommand">
+    <Position X="13.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAQAAAAAAAUAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\AddStudentCommand.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_quoteService" />
+      <Field Name="_studentDto" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab3.Application.EditStudentCommand">
+    <Position X="13.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAABAAAUAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\EditStudentCommand.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_studentDto" />
+      <Field Name="_studentService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab3.Application.QuoteApiAdapter">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Lab3.Application.QuoteApiAdapter.QuoteResponse" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Application\QuoteApiAdapter.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\QuoteApiAdapter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab3.Application.StudentService">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAACAAAAAAAIAAIAAAAA=</HashCode>
+      <FileName>Application\StudentService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_studentRepository" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab3.Domain.StudentDTO">
+    <Position X="17.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Domain\StudentDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab3.Application.ViewStudentCommand">
+    <Position X="13.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\ViewStudentCommand.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_studentService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab3.DataAccess.StudentRepository">
+    <Position X="7.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAEACAECAACAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>DataAccess\StudentRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_students" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab3.Domain.Student">
+    <Position X="10.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Domain\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab3.Domain.QuoteDTO">
+    <Position X="18" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\QuoteDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab3.Domain.StudentFactory">
+    <Position X="16" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\StudentFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab3.Domain.Validator">
+    <Position X="15.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Domain\Validator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Lab3.DataAccess.IStudentRepository" Collapsed="true">
+    <Position X="9.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>DataAccess\IStudentRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Lab3.Application.IQuoteService" Collapsed="true">
+    <Position X="17.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\IQuoteService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
