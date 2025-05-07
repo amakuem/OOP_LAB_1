@@ -1,0 +1,16 @@
+2025-05-07T06:42:20.0044423+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.4.3+c252b64ad913ea9411fc5d17bfd5580d2d061497
+2025-05-07T06:42:20.0554165+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-05-07T06:42:20.0573153+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-05-07T06:42:20.0573202+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 06:42:19.949
+2025-05-07T06:42:20.0598242+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 8340
+2025-05-07T06:42:20.0600236+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.15
+2025-05-07T06:42:20.0600376+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.15\System.Private.CoreLib.dll
+2025-05-07T06:42:20.0600503+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-05-07T06:42:20.0600535+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: D:\!\4sem\OOP\LABS\Lab3\TestProject1\bin\Debug\net8.0\TestProject1.dll
+2025-05-07T06:42:20.0604904+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory D:\!\4sem\OOP\LABS\Lab3\TestProject1\bin\Debug\net8.0\Log --results-directory D:\!\4sem\OOP\LABS\Lab3\TestResults --client-port 58254'
+2025-05-07T06:42:20.0632295+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-05-07T06:42:20.0982479+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-05-07T06:42:20.1045251+00:00 Microsoft.Testing.Platform.Configurations.JsonConfigurationSource+JsonConfigurationProvider INFORMATION Config file 'D:\!\4sem\OOP\LABS\Lab3\TestProject1\bin\Debug\net8.0\TestProject1.testconfig.json' not found.
+2025-05-07T06:42:20.1068605+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable:  VSTest mode: False
+2025-05-07T06:42:20.3509505+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.6.4' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-05-07T06:42:20.3740685+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter WARNING Атрибут Runsettings "MaxCpuCount" не поддерживается в Microsoft.Testing.Platform и будет пропущен
